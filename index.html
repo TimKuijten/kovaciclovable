@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kovacic Talent — Leadership, Advisory & Opportunity Platforms</title>
     <meta
       name="description"
-      content="Kovacic Talent unites executive leadership search, strategic advisory, and opportunity platforms in one premium ecosystem."
+      content="Kovacic Talent integra búsqueda ejecutiva, advisory estratégico y plataformas de oportunidades en un ecosistema premium."
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,12 +19,11 @@
               slate: '#55627a',
               muted: '#6b7280',
               line: '#dde3ee',
-              off: '#fbfbfc',
               accent: '#1e3a8a'
             },
             boxShadow: {
-              soft: '0 12px 35px -22px rgba(15, 23, 42, 0.35)',
-              panel: '0 26px 60px -38px rgba(17, 24, 39, 0.45)'
+              soft: '0 14px 36px -24px rgba(15, 23, 42, 0.36)',
+              panel: '0 28px 62px -40px rgba(17, 24, 39, 0.44)'
             },
             maxWidth: {
               container: '1240px'
@@ -42,8 +41,8 @@
 
       .fade-up {
         opacity: 0;
-        transform: translateY(24px);
-        transition: opacity 700ms ease, transform 700ms ease;
+        transform: translateY(20px);
+        transition: opacity 650ms ease, transform 650ms ease;
       }
 
       .fade-up.visible {
@@ -54,8 +53,12 @@
       .hero-grid {
         background-image: linear-gradient(to right, rgba(30, 58, 138, 0.08) 1px, transparent 1px),
           linear-gradient(to bottom, rgba(30, 58, 138, 0.08) 1px, transparent 1px);
-        background-size: 32px 32px;
-        mask-image: radial-gradient(circle at 50% 20%, rgba(0, 0, 0, 0.95), transparent 80%);
+        background-size: 34px 34px;
+        mask-image: radial-gradient(circle at 50% 20%, rgba(0, 0, 0, 0.92), transparent 80%);
+      }
+
+      .logo-orb {
+        background: radial-gradient(circle at 30% 30%, #274690, #12213f 65%);
       }
     </style>
   </head>
@@ -66,17 +69,17 @@
 
         <div class="flex items-center gap-3 md:gap-6">
           <nav class="hidden items-center gap-5 text-sm text-slate lg:flex">
-            <a href="#platforms" class="transition hover:text-ink">Platforms</a>
+            <a href="#plataformas" class="transition hover:text-ink">Plataformas</a>
             <a href="#executive" class="transition hover:text-ink">Executive</a>
             <a href="#advisory" class="transition hover:text-ink">Advisory</a>
-            <a href="#opportunities" class="transition hover:text-ink">Opportunities</a>
-            <a href="#contact" class="transition hover:text-ink">Contact</a>
+            <a href="#oportunidades" class="transition hover:text-ink">Oportunidades</a>
+            <a href="#contacto" class="transition hover:text-ink">Contacto</a>
           </nav>
           <a
-            href="#contact"
+            href="#contacto"
             class="rounded-full bg-navy px-5 py-2.5 text-sm font-medium text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-[#1a2d57]"
           >
-            Book a Conversation
+            Agendar Conversación
           </a>
         </div>
       </div>
@@ -85,244 +88,147 @@
     <main id="top" class="overflow-x-hidden pt-24">
       <section class="relative isolate pb-24 pt-24 md:pb-32 md:pt-32">
         <div class="pointer-events-none absolute inset-0 -z-10 hero-grid"></div>
-        <div class="pointer-events-none absolute left-1/2 top-10 -z-10 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-100/60 blur-3xl"></div>
+        <div class="pointer-events-none absolute left-1/2 top-10 -z-10 h-80 w-80 -translate-x-1/2 rounded-full bg-blue-100/60 blur-3xl"></div>
 
         <div class="mx-auto w-full max-w-container px-6 md:px-10">
           <div class="fade-up mx-auto max-w-4xl lg:mx-0">
             <p class="mb-5 text-sm font-semibold uppercase tracking-[0.16em] text-accent">
-              Leadership, Advisory & Opportunity Platforms
+              Liderazgo, Advisory y Plataformas de Oportunidad
             </p>
             <h1 class="text-4xl font-semibold leading-tight tracking-tight text-ink md:text-6xl">
-              One brand. Three strategic platforms.
+              Una marca. Tres plataformas estratégicas.
             </h1>
             <p class="mt-7 max-w-3xl text-lg leading-relaxed text-slate">
-              Kovacic Talent connects leadership hiring, strategic advisory, and opportunity ecosystems under
-              one vision. We help organizations and senior leaders make decisive moves with confidence,
-              precision, and long-range perspective.
+              Kovacic Talent conecta búsqueda de liderazgo, advisory estratégico y ecosistemas de oportunidad
+              en una sola visión: construir decisiones de talento con impacto real, velocidad y profundidad.
             </p>
             <div class="mt-10 flex flex-wrap gap-4">
               <a
-                href="#platforms"
+                href="#plataformas"
                 class="rounded-full bg-navy px-7 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-[#1a2d57]"
               >
-                Explore the Platforms
+                Explorar Plataformas
               </a>
               <a
-                href="#contact"
+                href="#contacto"
                 class="rounded-full border border-line bg-white px-7 py-3 text-sm font-medium text-ink transition hover:-translate-y-0.5 hover:border-slate"
               >
-                Contact Us
+                Contáctanos
               </a>
             </div>
             <div class="mt-10 flex flex-wrap gap-3 text-sm text-slate">
-              <span class="rounded-full border border-line bg-white px-4 py-2 shadow-soft">Executive Search</span>
-              <span class="rounded-full border border-line bg-white px-4 py-2 shadow-soft">Strategic Advisory</span>
-              <span class="rounded-full border border-line bg-white px-4 py-2 shadow-soft">Opportunity Ecosystems</span>
+              <span class="rounded-full border border-line bg-white px-4 py-2 shadow-soft">Búsqueda Ejecutiva</span>
+              <span class="rounded-full border border-line bg-white px-4 py-2 shadow-soft">Advisory Estratégico</span>
+              <span class="rounded-full border border-line bg-white px-4 py-2 shadow-soft">Plataformas de Oportunidad</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="platforms" class="py-24 md:py-32">
+      <section id="plataformas" class="py-24 md:py-32">
         <div class="mx-auto w-full max-w-container px-6 md:px-10">
           <div class="fade-up">
-            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">The Kovacic Ecosystem</h2>
+            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Las 3 Plataformas de Kovacic</h2>
             <p class="mt-5 max-w-3xl text-lg leading-relaxed text-slate">
-              Three focused platforms, one strategic operating model — designed to solve leadership, growth,
-              and talent-market challenges with depth and continuity.
+              Un ecosistema integrado para resolver necesidades de liderazgo, desarrollo profesional y acceso
+              a oportunidades en mercados estratégicos.
             </p>
           </div>
 
-          <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            <article class="fade-up rounded-2xl border border-line bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1.5 hover:shadow-panel">
-              <div class="mb-5 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-50 text-xl text-accent">◧</div>
-              <h3 class="text-xl font-semibold">Kovacic Executive</h3>
-              <p class="mt-4 leading-relaxed text-slate">
-                Leadership hiring for pivotal mandates: executive search, cross-border talent mapping, and
-                senior appointments where precision and trust are non-negotiable.
+          <div class="mt-12 grid gap-6 lg:grid-cols-3">
+            <article class="fade-up flex h-full flex-col rounded-2xl border border-line bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1.5 hover:shadow-panel">
+              <div class="mb-5 flex items-center gap-3">
+                <div class="logo-orb flex h-12 w-12 items-center justify-center rounded-xl text-sm font-semibold text-white">KE</div>
+                <span class="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Logo Plataforma</span>
+              </div>
+              <h3 class="text-xl font-semibold">Kovacic Executive Talent Research</h3>
+              <p class="mt-1 text-sm font-medium text-accent">Búsqueda Ejecutiva</p>
+              <p class="mt-4 flex-1 leading-relaxed text-slate">
+                Búsqueda de liderazgo e inteligencia de talento para energía, infraestructura e industrias críticas.
               </p>
-              <a href="#executive" class="mt-7 inline-block text-sm font-semibold text-accent hover:underline">Explore Executive Search</a>
+              <a href="#executive" class="mt-7 inline-block text-sm font-semibold text-accent hover:underline">Visitar Sitio Web</a>
             </article>
 
-            <article class="fade-up rounded-2xl border border-line bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1.5 hover:shadow-panel">
-              <div class="mb-5 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-50 text-xl text-accent">◇</div>
+            <article class="fade-up flex h-full flex-col rounded-2xl border border-line bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1.5 hover:shadow-panel">
+              <div class="mb-5 flex items-center gap-3">
+                <div class="logo-orb flex h-12 w-12 items-center justify-center rounded-xl text-sm font-semibold text-white">KA</div>
+                <span class="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Logo Plataforma</span>
+              </div>
               <h3 class="text-xl font-semibold">Kovacic Advisory</h3>
-              <p class="mt-4 leading-relaxed text-slate">
-                Strategic advisory for leadership structure, organizational design, succession direction, and
-                talent decisions with direct business impact.
+              <p class="mt-1 text-sm font-medium text-accent">Coaching y Desarrollo Profesional</p>
+              <p class="mt-4 flex-1 leading-relaxed text-slate">
+                Coaching de carrera, preparación de entrevistas, optimización de CV y estrategia profesional
+                para impulsar tu próximo paso laboral.
               </p>
-              <a href="#advisory" class="mt-7 inline-block text-sm font-semibold text-accent hover:underline">View Advisory Services</a>
+              <a href="#advisory" class="mt-7 inline-block text-sm font-semibold text-accent hover:underline">Explorar Advisory</a>
             </article>
 
-            <article class="fade-up rounded-2xl border border-line bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1.5 hover:shadow-panel md:col-span-2 xl:col-span-1">
-              <div class="mb-5 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-50 text-xl text-accent">◎</div>
-              <h3 class="text-xl font-semibold">Opportunity Platforms</h3>
-              <p class="mt-4 leading-relaxed text-slate">
-                A scalable digital layer connecting talent, organizations, and opportunities beyond one-off
-                mandates — building long-term ecosystem value.
+            <article class="fade-up flex h-full flex-col rounded-2xl border border-line bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1.5 hover:shadow-panel">
+              <div class="mb-5 flex items-center gap-3">
+                <div class="logo-orb flex h-12 w-12 items-center justify-center rounded-xl text-sm font-semibold text-white">TP</div>
+                <span class="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Logo Plataforma</span>
+              </div>
+              <h3 class="text-xl font-semibold">TuPega.cl</h3>
+              <p class="mt-1 text-sm font-medium text-accent">Plataforma de Carreras y Oportunidades</p>
+              <p class="mt-4 flex-1 leading-relaxed text-slate">
+                Una plataforma que conecta empresas y talento operativo en los sectores industrial, minero y
+                energético de Chile.
               </p>
-              <a href="#opportunities" class="mt-7 inline-block text-sm font-semibold text-accent hover:underline">Discover Platforms</a>
+              <a href="#oportunidades" class="mt-7 inline-block text-sm font-semibold text-accent hover:underline">Explorar Plataforma</a>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="executive" class="py-24 md:py-32">
-        <div class="mx-auto grid w-full max-w-container gap-10 px-6 md:px-10 lg:grid-cols-2">
-          <div class="fade-up">
-            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Kovacic Executive</h2>
-            <p class="mt-6 text-lg leading-relaxed text-slate">
-              Kovacic Executive is a boutique executive and strategic hiring platform for critical leadership
-              roles. We partner with boards, founders, and CEOs to secure leaders who can unlock outcomes in
-              complex, high-visibility environments.
+      <section id="executive" class="py-20 md:py-24">
+        <div class="mx-auto w-full max-w-container px-6 md:px-10">
+          <div class="fade-up rounded-3xl border border-line bg-white p-8 shadow-soft md:p-12">
+            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Kovacic Executive Talent Research</h2>
+            <p class="mt-5 max-w-4xl text-lg leading-relaxed text-slate">
+              Plataforma boutique de búsqueda ejecutiva para posiciones críticas. Combinamos investigación de
+              mercado, inteligencia de talento y ejecución discreta para asegurar líderes con ajuste estratégico.
             </p>
           </div>
-          <div class="fade-up grid gap-4 sm:grid-cols-2">
-            <div class="rounded-2xl border border-line bg-white p-5 shadow-soft"><p class="font-medium">Executive Search</p></div>
-            <div class="rounded-2xl border border-line bg-white p-5 shadow-soft"><p class="font-medium">Leadership Hiring</p></div>
-            <div class="rounded-2xl border border-line bg-white p-5 shadow-soft"><p class="font-medium">International Reach</p></div>
-            <div class="rounded-2xl border border-line bg-white p-5 shadow-soft"><p class="font-medium">Sector-Specific Mandates</p></div>
-          </div>
-        </div>
-
-        <div class="mx-auto mt-10 w-full max-w-container px-6 md:px-10">
-          <div class="fade-up rounded-2xl border border-line bg-slate-50 px-8 py-6">
-            <div class="grid gap-6 sm:grid-cols-3">
-              <div>
-                <p class="text-sm uppercase tracking-[0.16em] text-muted">Cross-border reach</p>
-                <p class="mt-2 text-lg font-semibold">Regional and international mandates</p>
-              </div>
-              <div>
-                <p class="text-sm uppercase tracking-[0.16em] text-muted">Senior-level focus</p>
-                <p class="mt-2 text-lg font-semibold">Critical leadership appointments</p>
-              </div>
-              <div>
-                <p class="text-sm uppercase tracking-[0.16em] text-muted">Tailored search approach</p>
-                <p class="mt-2 text-lg font-semibold">Every brief is partner-led</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section id="advisory" class="py-24 md:py-32">
-        <div class="mx-auto grid w-full max-w-container items-center gap-10 px-6 md:px-10 lg:grid-cols-2">
-          <div class="fade-up order-2 grid gap-4 sm:grid-cols-2 lg:order-1">
-            <article class="rounded-2xl border border-line bg-white p-6 shadow-soft">
-              <h3 class="font-semibold">Organizational Design</h3>
-              <p class="mt-2 text-sm leading-relaxed text-slate">Refining structures to align leadership accountability with strategic priorities.</p>
-            </article>
-            <article class="rounded-2xl border border-line bg-white p-6 shadow-soft">
-              <h3 class="font-semibold">Leadership Advisory</h3>
-              <p class="mt-2 text-sm leading-relaxed text-slate">Focused counsel for executive teams navigating inflection points and change.</p>
-            </article>
-            <article class="rounded-2xl border border-line bg-white p-6 shadow-soft">
-              <h3 class="font-semibold">Talent Strategy</h3>
-              <p class="mt-2 text-sm leading-relaxed text-slate">Linking leadership pipelines and capability priorities to business outcomes.</p>
-            </article>
-            <article class="rounded-2xl border border-line bg-white p-6 shadow-soft">
-              <h3 class="font-semibold">Market / Talent Intelligence</h3>
-              <p class="mt-2 text-sm leading-relaxed text-slate">Real-world market insight to improve strategic hiring and succession decisions.</p>
-            </article>
-          </div>
-
-          <div class="fade-up order-1 lg:order-2">
+      <section id="advisory" class="py-20 md:py-24">
+        <div class="mx-auto w-full max-w-container px-6 md:px-10">
+          <div class="fade-up rounded-3xl border border-line bg-white p-8 shadow-soft md:p-12">
             <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Kovacic Advisory</h2>
-            <p class="mt-6 text-lg leading-relaxed text-slate">
-              The advisory arm helps organizations shape leadership strategy, structure, and talent choices
-              with strategic clarity. Our approach is business-first, practical, and aligned to executive
-              decision-making.
+            <p class="mt-5 max-w-4xl text-lg leading-relaxed text-slate">
+              Advisory orientado a resultados para decisiones de carrera, posicionamiento profesional y
+              empleabilidad. Diseñado para profesionales que buscan avanzar con claridad y foco.
             </p>
           </div>
         </div>
       </section>
 
-      <section id="opportunities" class="py-24 md:py-32">
+      <section id="oportunidades" class="py-20 md:py-24">
         <div class="mx-auto w-full max-w-container px-6 md:px-10">
-          <div class="fade-up">
-            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Opportunity Platforms</h2>
-            <p class="mt-6 max-w-4xl text-lg leading-relaxed text-slate">
-              Kovacic Talent is not only filling roles. We are building connected platforms that increase
-              access to opportunity across people, markets, and organizations — a scalable ecosystem model for
-              long-term strategic advantage.
+          <div class="fade-up rounded-3xl border border-line bg-white p-8 shadow-soft md:p-12">
+            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">TuPega.cl</h2>
+            <p class="mt-5 max-w-4xl text-lg leading-relaxed text-slate">
+              Plataforma digital de oportunidades laborales para conectar empresas y talento operativo en
+              sectores industriales, mineros y energéticos, con foco en eficiencia y escalabilidad.
             </p>
-          </div>
-
-          <div class="fade-up mt-10 rounded-3xl border border-line bg-white p-8 shadow-panel">
-            <div class="mb-7 h-px w-full bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
-            <div class="grid gap-5 lg:grid-cols-3">
-              <div class="rounded-2xl border border-line p-6">
-                <div class="mb-4 flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-accent"></span><span class="h-px flex-1 bg-line"></span></div>
-                <h3 class="text-lg font-semibold">Talent Platforms</h3>
-                <p class="mt-3 text-sm leading-relaxed text-slate">Curated access points that connect leadership talent with high-impact roles and mandates.</p>
-              </div>
-              <div class="rounded-2xl border border-line p-6">
-                <div class="mb-4 flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-accent"></span><span class="h-px flex-1 bg-line"></span></div>
-                <h3 class="text-lg font-semibold">Opportunity Networks</h3>
-                <p class="mt-3 text-sm leading-relaxed text-slate">Network logic that compounds strategic introductions, market visibility, and opportunity flow.</p>
-              </div>
-              <div class="rounded-2xl border border-line p-6">
-                <div class="mb-4 flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-accent"></span><span class="h-px flex-1 bg-line"></span></div>
-                <h3 class="text-lg font-semibold">Scalable Digital Ecosystems</h3>
-                <p class="mt-3 text-sm leading-relaxed text-slate">Infrastructure designed to scale quality, relevance, and trust across expanding markets.</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-navy py-24 text-white md:py-32">
+      <section id="contacto" class="py-24 md:py-32">
         <div class="mx-auto w-full max-w-container px-6 md:px-10">
-          <div class="fade-up">
-            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Beyond recruitment. Toward an ecosystem.</h2>
-            <p class="mt-6 max-w-4xl text-lg leading-relaxed text-slate-200">
-              Kovacic Talent is evolving from a traditional firm into a broader leadership, advisory, and
-              opportunity platform. We combine trusted execution with strategic architecture for long-term
-              impact.
+          <div class="fade-up rounded-3xl border border-line bg-navy p-8 text-white shadow-panel md:p-12">
+            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Construyamos la próxima etapa juntos.</h2>
+            <p class="mt-4 max-w-3xl text-lg leading-relaxed text-slate-200">
+              Cuéntanos qué necesitas y coordinamos una conversación para activar la plataforma adecuada.
             </p>
-            <ul class="mt-8 space-y-3 text-lg">
-              <li>We identify leaders</li>
-              <li>We advise organizations</li>
-              <li>We create platforms for opportunity</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="py-24 md:py-32">
-        <div class="mx-auto w-full max-w-container px-6 md:px-10">
-          <div class="fade-up rounded-3xl border border-line bg-white p-8 shadow-panel md:p-12">
-            <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Let’s build the next phase together.</h2>
-            <p class="mt-4 max-w-3xl text-lg leading-relaxed text-slate">
-              Share your priorities and we will follow up with a focused conversation on leadership, advisory,
-              or opportunity platform strategy.
-            </p>
-
-            <form class="mt-8 grid gap-4 md:grid-cols-2">
-              <label class="text-sm font-medium text-slate"
-                >Name
-                <input type="text" class="mt-2 w-full rounded-xl border border-line px-4 py-3 text-ink outline-none transition focus:border-accent" />
-              </label>
-              <label class="text-sm font-medium text-slate"
-                >Email
-                <input type="email" class="mt-2 w-full rounded-xl border border-line px-4 py-3 text-ink outline-none transition focus:border-accent" />
-              </label>
-              <label class="text-sm font-medium text-slate md:col-span-2"
-                >Company
-                <input type="text" class="mt-2 w-full rounded-xl border border-line px-4 py-3 text-ink outline-none transition focus:border-accent" />
-              </label>
-              <label class="text-sm font-medium text-slate md:col-span-2"
-                >Message
-                <textarea rows="4" class="mt-2 w-full rounded-xl border border-line px-4 py-3 text-ink outline-none transition focus:border-accent"></textarea>
-              </label>
-
-              <div class="md:col-span-2 flex flex-wrap items-center gap-5">
-                <button type="button" class="rounded-full bg-navy px-7 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-[#1a2d57]">
-                  Start a Conversation
-                </button>
-                <a href="mailto:hello@kovacictalent.com" class="text-sm font-medium text-accent hover:underline">hello@kovacictalent.com</a>
-              </div>
-            </form>
+            <a
+              href="mailto:contacto@kovacictalent.com"
+              class="mt-8 inline-block rounded-full bg-white px-7 py-3 text-sm font-medium text-navy transition hover:-translate-y-0.5"
+            >
+              Iniciar Conversación
+            </a>
           </div>
         </div>
       </section>
@@ -332,16 +238,16 @@
       <div class="mx-auto flex w-full max-w-container flex-col gap-6 px-6 md:flex-row md:items-center md:justify-between md:px-10">
         <div>
           <p class="text-lg font-semibold text-navy">Kovacic Talent</p>
-          <p class="mt-1 text-sm text-slate">Leadership, Advisory & Opportunity Platforms</p>
+          <p class="mt-1 text-sm text-slate">Liderazgo, Advisory y Plataformas de Oportunidad</p>
         </div>
         <nav class="flex flex-wrap gap-4 text-sm text-slate">
-          <a href="#platforms" class="transition hover:text-ink">Platforms</a>
+          <a href="#plataformas" class="transition hover:text-ink">Plataformas</a>
           <a href="#executive" class="transition hover:text-ink">Executive</a>
           <a href="#advisory" class="transition hover:text-ink">Advisory</a>
-          <a href="#opportunities" class="transition hover:text-ink">Opportunities</a>
-          <a href="#contact" class="transition hover:text-ink">Contact</a>
+          <a href="#oportunidades" class="transition hover:text-ink">Oportunidades</a>
+          <a href="#contacto" class="transition hover:text-ink">Contacto</a>
         </nav>
-        <p class="text-sm text-slate">© <span id="year"></span> Kovacic Talent. All rights reserved.</p>
+        <p class="text-sm text-slate">© <span id="year"></span> Kovacic Talent. Todos los derechos reservados.</p>
       </div>
     </footer>
 
@@ -368,11 +274,11 @@
             }
           })
         },
-        { threshold: 0.2 }
+        { threshold: 0.18 }
       )
 
       document.querySelectorAll('.fade-up').forEach((el, idx) => {
-        el.style.transitionDelay = `${Math.min(idx * 60, 420)}ms`
+        el.style.transitionDelay = `${Math.min(idx * 70, 420)}ms`
         observer.observe(el)
       })
     </script>
